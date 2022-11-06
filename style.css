@@ -1,0 +1,40 @@
+
+
+
+header {
+    background-color: #ed5a6b8a;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;    
+}
+
+header > h1 {
+    color: #fbb04d;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+}
+a {
+    text-decoration: none;
+    
+}
+a:hover {
+    background-color: #fbb04d;    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    border-radius: 100px;
+}
+
+a.navegation {
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ 
+}
+main {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+img.fogo {
+    width: 300px;
+
+}
+
+
+/* #fbb04d */
