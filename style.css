@@ -1,5 +1,13 @@
 
-
+* {
+    max-width: 750px;
+    margin: auto;
+    
+}
+body {
+    background: url(background-pink.jpg);
+    background-position: absolute;
+}
 
 header {
     background-color: #ed5a6b8a;
@@ -28,6 +36,7 @@ a.navegation {
  
 }
 main {
+    background-color: white;
     font-family: 'Rajdhani', sans-serif;
 }
 
