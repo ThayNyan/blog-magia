@@ -1,46 +1,73 @@
-
 * {
-    max-width: 750px;
+    padding: 0px;
     margin: auto;
-    
-}
-body {
-    background: url(background-pink.jpg);
-    background-position: absolute;
 }
 
 header {
+    padding: 20px;
     background-color: #ed5a6b8a;
     text-align: center;
-    font-family: 'Rajdhani', sans-serif;    
+    font-family: 'Rajdhani', sans-serif;
 }
 
-header > h1 {
-    color: #fbb04d;
+body {
+    background-position: absolute;
+}
+
+header>h1 {
+    color: #000000;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
 }
+
 a {
     text-decoration: none;
-    
+
 }
+
 a:hover {
-    background-color: #fbb04d;    
+    background-color: #0004ff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
     border-radius: 100px;
 }
 
 a.navegation {
- color: white;
- padding-left: 10px;
- padding-right: 10px;
- 
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
+
 main {
     background-color: white;
     font-family: 'Rajdhani', sans-serif;
 }
 
-img.fogo {
+section {
+    padding: 100px;
+   
+}
+
+.magi {
+    background-color: darkgrey;
+}
+
+.amul {
+    background-color: aquamarine;
+}
+
+.brux {
+    background-color: darkgrey;
+}
+
+.ritu {
+    background-color: aquamarine;
+}
+
+.feit {
+    background-color: darkgrey;
+}
+
+img.imagens {
     width: 300px;
 
 }
