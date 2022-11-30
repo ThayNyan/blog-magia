@@ -24,8 +24,8 @@ body {
 
 header>h1 {
     font-size: 3em;
-    color: var(--cor-dark-liver)
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    color: black;
+    text-shadow: 1px 1px 3px var(--cor-dark-liver);
 }
 
 nav {
@@ -56,34 +56,37 @@ main {
 }
 
 section {
-    padding: 100px;
-   
+    padding: 80px 200px 80px 200px;
 }
+/*preciso arrumar o padding está muito espaçado quando fica em tela pequena*/ 
 
 .magi {
-    background-color: darkgrey;
+    background-color: var(--cor-salmon);
 }
 
 .amul {
-    background-color: aquamarine;
+    background-color: var(--cor-bright-lilac);
 }
 
 .brux {
-    background-color: darkgrey;
+    background-color: var(--cor-dark-liver);
 }
 
 .ritu {
-    background-color: aquamarine;
+    background-color: var(--cor-salmon);
 }
 
 .feit {
-    background-color: darkgrey;
+    background-color: var(--cor-bright-lilac);
 }
 
-img.imagens {
-    width: 300px;
-
+img {
+        width: 400px;
 }
 
-
-/* #fbb04d */
+footer {
+    text-align: center;
+    color: white;
+    background-color: var(--cor-dark-liver);
+    /*arrumar o nome Thays Figueiredo para ficar sem decoração do link*/
+}
