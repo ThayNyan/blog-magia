@@ -56,9 +56,9 @@ main {
 }
 
 section {
-    padding: 80px 200px 80px 200px;
+    padding: 30vh 15%;
+    
 }
-/*preciso arrumar o padding está muito espaçado quando fica em tela pequena*/ 
 
 .magi {
     background-color: var(--cor-salmon);
@@ -80,9 +80,15 @@ section {
     background-color: var(--cor-bright-lilac);
 }
 
-img {
-        width: 400px;
+.div1{
+    
 }
+
+img {   
+        float: right;
+        max-width: 180px;
+        min-width: 50%;
+    }
 
 footer {
     text-align: center;
@@ -90,3 +96,5 @@ footer {
     background-color: var(--cor-dark-liver);
     /*arrumar o nome Thays Figueiredo para ficar sem decoração do link*/
 }
+
+/* eu não estou entendendo qual a VH fica pequena o alinhamento horizontal da imagem e do texto se mantém, mas quando aumento a tela as imagens ficam sobrepondo o section não consigo arrumar */
